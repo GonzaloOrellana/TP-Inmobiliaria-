@@ -1,0 +1,14 @@
+$(document).ready(function() {
+    $('#portada-form').hide();
+    $('#portada-form').each(function(i) {
+        $(this).delay(i * 500).fadeIn(2000);
+    });
+});
+
+$(document).ready(function(){
+    $('#Destacadas').hide();
+    $('#propdest-button').click(function(){
+        $('#Destacadas').slideToggle('slow');
+    });
+});
+

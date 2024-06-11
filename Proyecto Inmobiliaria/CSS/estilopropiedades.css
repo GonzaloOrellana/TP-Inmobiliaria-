@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #fff;
+}
+
+header {
+    height: 30px;
+    background-color:#F2F2F2;
+    color: #003366 ;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 10px 0px #e0f7fa;
+}
+
+#contenedorlogo img{
+    width: 100px;
+    height: auto;
+    margin: auto auto auto auto;
+}
+
+#titulo{
+    color: #003366 ;
+    margin:10px 0px 6px 5px;
+    text-align: left;
+    font-family:serif;
+    width: 200px;
+    height: 20px;
+    font-size: small;
+    text-shadow: 0px 0px 7px #067daa;
+}
+
+strong{
+    display: inline-block;
+    vertical-align: top;
+    font-size:large;
+    letter-spacing: 7px;
+    
+}
+
+#eslogan{
+    color: #003366 ;
+    margin:10px 0px 2px 2px;
+    text-align: left;
+    font-family:serif;
+    width: 220px;
+    height: 20px;
+    font-size: small;
+    text-shadow: 0px 0px 5px #067daa;
+}
+
+nav{
+    margin-left: auto;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+li{
+    margin: 0 10px auto auto;
+}
+
+a{
+    color: #003366;
+    text-decoration:underline;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #28A745;
+    border-radius: 5px;
+}
+
+h2{
+    color: #666666;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px 0px 15px 20px;
+    width: auto;
+    height: 20px;
+}
+
+#botonventa{
+    margin-top: auto;
+    margin-left: 20px;
+    margin-bottom: auto;
+    background-color:#003366; 
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 9px 0 #0000003d;
+}
+
+#botonventa:hover{
+    background-color: #28A745;
+    box-shadow: 0 4px 16px 0 #0000003d;
+}
+
+#botonalquileres{
+    margin-top: auto;
+    margin-left: 20px;
+    margin-bottom: auto;
+    background-color:#003366; 
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 9px 0 #0000003d;
+}
+
+#botonalquileres:hover{
+    background-color: #28A745;
+    box-shadow: 0 4px 16px 0 #0000003d;
+}
+
+.propiedad{ 
+    display: inline-block;
+    width: 350px; 
+    height: 350px;
+    margin: 20px auto 20px 10px; 
+    vertical-align: top; 
+    border-radius: 10px;
+    color: #666666 ;
+    background-color: #F2F2F2;
+    padding: 0px;
+    box-shadow: 0px 0px 10px 0px white;
+}
+
+img{
+    width: 100%; 
+    height: auto; 
+    border-radius: 2px; 
+    margin-bottom: 15px; 
+}
+
+h3,p{
+    margin: 0 10px; 
+    text-align: left;
+    font-size: medium;
+}
+
+b{
+    color: black;
+}
+
+#precio{
+    margin: 15px auto 5px 100px;
+    background-color:#003366; 
+    border: none;
+    color: #F2F2F2;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 9px 0 #3d8b673d;
+    align-items: center;
+}
+
+#precio:hover{
+    background-color: #50c2ff;
+    box-shadow: 0 4px 16px 0 #0000003d;
+}
+
+footer {
+    background-color: #F2F2F2;
+    color: #666666;
+    text-align: left;
+    padding: 20px;
+}
+
+h6{
+    font-family:Arial, Helvetica, sans-serif;
+    width: auto;
+    height: auto;
+    font-size: medium;
+    margin:auto auto auto 30px;
+    display: inline-block;
+    vertical-align: top;
+    color: #666666;
+}
+
+#footerlist{
+    margin: 5px auto auto auto;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    vertical-align:top;
+    text-align: left;
+    list-style:circle;
+}
+
+#logofooter{
+    display: inline-block;
+    width: 200px;
+    height: auto;
+
+}
+
+#Facebook{
+    width: 30px;
+    height: 30px;
+}
+
+#IG{
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,328 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #fff;
+}
+
+header {
+    height: 30px;
+    background-color:#F2F2F2;
+    color: #003366 ;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 10px 0px #e0f7fa;
+}
+
+#contenedorlogo img{
+    width: 100px;
+    height: auto;
+}
+
+#titulo{
+    color: #003366 ;
+    margin:10px 0px 6px 5px;
+    text-align: left;
+    font-family:serif;
+    width: 200px;
+    height: 20px;
+    font-size: small;
+    text-shadow: 0px 0px 7px #067daa;
+}
+
+strong{
+    display: inline-block;
+    vertical-align: top;
+    font-size:large;
+    letter-spacing: 7px;
+    
+}
+
+#eslogan{
+    color: #003366 ;
+    margin:10px 0px 2px 2px;
+    text-align: left;
+    font-family:serif;
+    width: 220px;
+    height: 20px;
+    font-size: small;
+    text-shadow: 0px 0px 5px #067daa;
+}
+
+nav{
+    margin-left: auto;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+li{
+    margin: 0 10px;
+}
+
+a{
+    color: #003366;
+    text-decoration:underline;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #28A745;
+    border-radius: 5px;
+}
+
+h2{
+    text-align: left;
+}
+
+#presentacion {
+    background-color:none;
+    text-align:left;
+    color: #666666;
+    margin: 10px 1px 1px 20px;
+}
+
+#burzaco{  
+    margin: auto auto auto 15px; 
+    text-align:left;
+    color: #666666;
+}
+
+#bienvenido{
+    text-align: left;
+}
+
+section{
+    padding: 2px;
+}
+
+#Destacadas{
+    background-color:none;
+    padding: auto;
+    text-align: center;
+}
+
+#propdest{
+    text-align:center;
+    letter-spacing: 3px;
+}
+
+h3{
+    text-align: center;
+    font-size: x-large;
+}
+
+.casa-destacada {
+    display: inline-block; 
+    width: 350px; 
+    height: 350px;
+    margin: 10px; 
+    vertical-align: top; 
+    border-radius: 10px;
+    color: #666666 ;
+    background-color: #F2F2F2;
+    padding: 0px;
+}
+
+.casa-destacada img{
+    width: 100%; 
+    height: auto; 
+    border-radius: 2px; 
+    margin-bottom: 15px; 
+}
+
+h3,p{
+    margin: 0 10px; 
+    text-align: left;
+    font-size: medium;
+}
+
+#precio{
+    margin: 15px 50px 5px 50px;
+    background-color:#003366; 
+    border: none;
+    color: #F2F2F2;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 9px 0 #3d8b673d;
+    align-items: center;
+}
+
+#precio:hover{
+    background-color: #28A745;
+    box-shadow: 0 4px 16px 0 #0000003d;
+}
+
+#propdest-button {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color:#003366; 
+    border: none;
+    color: #F2F2F2;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 9px 0 #0000003d;
+}
+
+#propdest-button:hover {
+    background-color: #28A745;
+    box-shadow: 0 4px 16px 0 #0000003d;
+}
+
+#restodebotones{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    background-color:#003366; 
+    border: none;
+    color: #F2F2F2;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 9px 0 #0000003d;
+}
+
+#restodebotones:hover{
+    background-color: #28A745;
+    box-shadow: 0 4px 16px 0 #0000003d;
+}
+
+#portada-form{
+    background-image: url("/Imagenes/pexels-kindelmedia-7579042.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 450px;
+    width: 1550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#formulario-busqueda-propiedad {
+    background-color: #ffffffe6; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0000001a;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-grupo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+
+#formulario-busqueda-propiedad h2 {
+    color: #666666; 
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+select, input{
+    width: calc(100% - 20px); 
+    padding: 10px; 
+    margin: 0 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    background-color: #ffffff; 
+    width: calc(100% / 5 - 20px);
+    margin-right: 10px;     
+}
+
+.menu{
+    color: #666666;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+#formulario-busqueda-propiedad button {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    width: calc(100% / 5 - 20px);
+    padding: 10px; 
+    margin: 10px auto; 
+    border: none; 
+    border-radius: 4px; 
+    background-color: #003366; 
+    color: #F2F2F2; 
+    box-shadow: 0 4px 8px #1d5f8c;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#formulario-busqueda-propiedad button:hover {
+    background-color: #28A745; 
+}
+
+footer {
+    background-color: #F2F2F2;
+    color: #666666;
+    text-align: left;
+    padding: 20px;
+}
+
+h5{
+    font-family:Arial, Helvetica, sans-serif;
+    width: auto;
+    height: auto;
+    font-size: medium;
+    margin:auto auto auto 30px;
+    display: inline-block;
+    vertical-align: top;
+    color: #666666;
+}
+
+#footerlist{
+    margin: 5px auto auto auto;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    vertical-align:top;
+    text-align: left;
+    list-style:circle;
+}
+
+#logofooter{
+    display: inline-block;
+    width: 200px;
+    height: auto;
+
+}
+
+#Facebook{
+    width: 30px;
+    height: 30px;
+}
+
+#IG{
+    width: 30px;
+    height: 30px;
+}

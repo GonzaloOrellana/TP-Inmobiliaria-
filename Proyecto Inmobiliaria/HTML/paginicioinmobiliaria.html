@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title> Proyecto Inmobiliaria</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/estilosproyectinmobiliaria.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/JavaScript/Script-inicio"></script>
+</head>
+<body>
+    <header>
+        <div id="contenedorlogo">
+            <img id="logo" width="100%" src="/Imagenes/logopng.png">
+        </div>
+             <h1 id="titulo"><strong>BurzaProp</strong></h1><p id="eslogan">Tu hogar, nuestra pasión.</p>
+        <nav>
+            <ul>
+                <li><a href="/HTML/paginicioinmobiliaria.html">Inicio</a></li>
+                <li><a href="/HTML/pagdepropiedades.html">Propiedades</a></li>
+                <li><a href="/HTML/Pagina de contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="portada-form">
+        <div id="contenedor-form">
+            <form id="formulario-busqueda-propiedad">
+                <h2>BUSCA TU PROPIEDAD</h2>
+                <div class="form-grupo">
+                    <h6 class="menu">UBICACIÓN DE LA PROPIEDAD</h6>
+                    <select id="ubicacion-propiedad" name="ubicacion-propiedad">
+                    <option value="all">Todos</option>
+                    </select>
+                    <br>
+                    <h6 class="menu">AMBIENTES</h6>
+                    <input type="number" id="ambientes" name="ambientes" min="1" max="10">
+                    <br>
+                    <h6 class="menu">TIPO</h6>
+                    <select id="tipo" name="tipo">
+                    <option value="all">Todos</option>
+                    </select>
+                    <br>
+                    <h6 class="menu">TIPO DE LA PROPIEDAD</h6>
+                    <select id="tipo-propiedad" name="tipo-propiedad">
+                    <option value="all">Todos</option>
+                    </select>
+                    <br>
+                    <h6 class="menu">PRECIO (USD)</h6>
+                    <input type="text" id="rango-precio" name="rango-precio" placeholder="100 - 100000">
+                    <br>
+                    <button type="submit">BUSCAR</button>
+                </div>
+            </form>
+        </div>
+    </div>
+        <section id="presentacion">
+            <h2 id="burzaco">Propiedades Burzaco</h2>
+            <p id="bienvenido">¡Bienvenido a BurzaProp! Con más de 10 años de experiencia, somos una inmobiliaria de renombre en el mercado local. 
+                Nos especializamos en la venta y alquiler de propiedades residenciales. Ademas nos enorgullece ofrecer un servicio 
+                personalizado y transparente, asegurando la satisfacción de nuestros clientes en cada paso del proceso.
+        </section>
+        <button id="propdest-button">Propiedades Destacadas</button>
+        <button id="restodebotones">Tasaciones</button>
+        <button id="restodebotones">Asesoramiento</button>
+        <section id="Destacadas">
+            <div class="casa-destacada">
+                <img width="100%" src="/Imagenes/pexels 1.jpg" alt="Destacada 1">
+                <h3>Monoambiente</h3>
+                <p>Casa en Alquiler</p>
+                <button id="precio">Consultar Precio </button>
+            </div>
+            <div class="casa-destacada">
+                <img width="100%" src="/Imagenes/pexels 2.jpg" alt="Destacada 2">
+                <h3>Casa Vintaje</h3>
+                <p>Casa en Alquiler</p>
+                <button id="precio">Consultar Precio </button>
+            </div>
+            <div class="casa-destacada">
+                <img width="100%" src="/Imagenes/pexels 3.jpg" alt="Destacada 3">
+                <h3>Mansion</h3>
+                <p>Casa en Venta</p>
+                <button id="precio">Consultar Precio </button>
+            </div>
+            <div class="casa-destacada">
+                <img width="100%" src="/Imagenes/pexels 4.jpg" alt="Destacada 4">
+                <h3>Departamento en Buenos Aires</h3>
+                <p>Casa en Alquiler</p>
+                <button id="precio">Consultar Precio </button>
+            </div>
+        </section>        
+    <footer>
+        <img id="logofooter" width="100%" src="/Imagenes/logopng.png">
+            <h5>¿Que estas buscando?<br>
+                <ul id="footerlist">
+                    <li>Terrenos</li>
+                    <li>Departamentos</li>
+                    <li>Ventas</li>
+                    <li>Coaching Inmobiliario</li>
+                </ul>
+            </h5>
+                <h5>Seguinos en:<br>
+                <img id="Facebook" src="/Imagenes/Logo Facebook.png" alt="logo de Facebook">
+                <img id="IG" src="/Imagenes/logo ig 2.png" alt="logo de IG">
+                </h5>
+    </footer>    
+</body>
+</div>
+</html>

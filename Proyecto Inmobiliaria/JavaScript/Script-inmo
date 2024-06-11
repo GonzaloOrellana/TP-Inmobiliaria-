@@ -1,0 +1,12 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const submitButton = document.getElementById("miboton");
+
+    // Función para manejar el envío del formulario con doble clic
+    function enviarFormulario(event) {
+        alert("Enviado");
+        // Aquí puedes agregar código para enviar el formulario si es necesario
+    }
+
+    // Agregar el evento de doble clic al botón de enviar
+    submitButton.addEventListener('click', enviarFormulario);
+});

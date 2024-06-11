@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/Imagenes/portada\ contacto.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    height: 30px;
+    background-color:#F2F2F2;
+    color: #003366 ;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 10px 0px #e0f7fa;
+}
+
+#contenedorlogo img{
+    width: 100px;
+    height: auto;
+}
+
+#titulo{
+    color: #003366 ;
+    margin:10px 0px 6px 5px;
+    text-align: left;
+    font-family:serif;
+    width: 200px;
+    height: 20px;
+    font-size: small;
+    text-shadow: 0px 0px 7px #067daa;
+}
+
+strong{
+    display: inline-block;
+    vertical-align: top;
+    font-size:large;
+    letter-spacing: 7px;
+    
+}
+
+#eslogan{
+    color: #003366 ;
+    margin:10px 0px 2px 2px;
+    text-align: left;
+    font-family:serif;
+    width: 220px;
+    height: 20px;
+    font-size: small;
+    text-shadow: 0px 0px 5px #067daa;
+}
+
+nav{
+    margin-left: auto;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+li{
+    margin: 0 10px;
+}
+
+a{
+    color: #003366;
+    text-decoration:underline;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #28A745;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    background-color: #ffffffe6; 
+    color: #1c2127;
+    border-radius: 5px;
+    width: 500px;
+    margin: 20px auto auto auto;
+}
+
+#contenedor{
+    width: 700px;
+    height:auto;
+    background-color: #ffffffe6; 
+    box-shadow: 0px 0px 10px 0px white;
+    margin: 10px auto 10px 100px;
+}
+
+
+#info-form{
+    margin: auto;
+    background-color: none; 
+    padding: 5px;
+    border-radius: 5px;
+    color: #1c2127;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form input,form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    font-size: larger;
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#miboton:hover {
+    background-color: #28A745;
+}
+
+footer {
+    background-color: #F2F2F2;
+    color: #666666;
+    text-align: left;
+    padding: 20px;
+}
+
+h5{
+    font-family:Arial, Helvetica, sans-serif;
+    width: auto;
+    height: auto;
+    font-size: medium;
+    margin:auto auto auto 30px;
+    display: inline-block;
+    vertical-align: top;
+    color: #666666;
+}
+
+#footerlist{
+    margin: 5px auto auto auto;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    vertical-align:top;
+    text-align: left;
+    list-style:circle;
+}
+
+#logofooter{
+    display: inline-block;
+    width: 200px;
+    height: auto;
+
+}
+
+#Facebook{
+    width: 30px;
+    height: 30px;
+}
+
+#IG{
+    width: 30px;
+    height: 30px;
+}
+
