@@ -207,7 +207,7 @@ h3,p{
 }
 
 #portada-form{
-    background-image: url("/Imagenes/pexels-kindelmedia-7579042.jpg");
+    background-image: url("../Imagenes/pexels-kindelmedia-7579042.jpg");
     background-size: cover;
     background-position: center;
     margin: 0;
