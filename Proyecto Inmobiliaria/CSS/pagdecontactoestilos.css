@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(/Imagenes/portada\ contacto.jpg);
+    background-image: url(../Imagenes/portada\ contacto.jpg);
     background-position: center;
     background-size: cover;
     color: #fff;
